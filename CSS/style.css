@@ -1,0 +1,129 @@
+body
+{
+	font-size: 16pt;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #d9d9d9;
+}
+
+header > nav ul , footer
+{
+	list-style: none;
+	background-color: #1a1a1a;
+	margin: 0;
+	text-align: center;
+	font-size: 18pt;
+
+}
+
+header > nav ul li a
+{
+	text-decoration-line: none;
+	color: #FFFFFF;
+	font-size: 18pt;
+}
+
+header > nav ul li
+{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+footer div
+{
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+h2
+{
+	text-align: center;
+	font-style: oblique;
+}
+
+.photo
+{
+	text-align: center;
+}
+ .photo img
+ {
+ 	width:20%;
+ 	height:20%
+ 	border:solid 5px #A9A9A9;
+ 	border-radius: 25%;
+ }
+
+.social-media h3,.contact-form h3
+{
+	text-align: center;
+}
+
+.social-media a
+{
+	display: block;
+	color: #000000;
+	text-decoration: none;
+}
+
+.contact-form input[type="submit"]
+{
+	width: 100px;	
+	margin: 0 auto;
+	display: block;
+	background-color: #999990;
+	color: #000000;
+	border-radius: 3px;
+	border: 0;
+	height: 40px;
+	font-size: 12pt;
+}
+
+.contact-form input[type="submit"]:hover
+{
+	opacity: 0.8;
+	color: #ffffff
+}
+
+.social-media i
+{
+	display: inline;
+	margin-right: 5px;
+}
+.social-media *,.contact-form *
+{
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+ .social-media,.contact-form
+ {
+ 	position: relative;
+ 	float: left;
+ 	width: 45%;
+ 	border: 1px solid #000000;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	margin-left: 2%;
+ }
+
+ footer
+ {
+ 	position: fixed;
+ 	width: 100%;
+ 	bottom: 0;
+ }
+
+.gallery figure img
+{
+	height: 200px; 
+	width: 200px;
+	border: 1px solid #000000
+}
+
+.gallery figure
+{
+	position: relative;
+	float: left;
+	text-align: center;
+}
